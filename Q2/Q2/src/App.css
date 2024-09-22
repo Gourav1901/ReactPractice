@@ -1,0 +1,23 @@
+/* App.css */
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.coffee-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.coffee-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
